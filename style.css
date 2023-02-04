@@ -1,0 +1,82 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+* {
+/*	background-color: #401C3A;*/
+	color: white;
+}
+
+body, html {
+	padding: 0px;
+	margin: 0px;
+	background-image: url("https://images.pexels.com/photos/2847648/pexels-photo-2847648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+	
+}
+
+.logo {
+	width: 70px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 3em;
+	margin-right: auto;
+}
+
+.mv {
+	margin-left: 30px;
+	width: 700px;
+	height: auto;
+}
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+.title {
+	text-align: center;
+	font-family: 'Unbounded', sans-serif;
+	font-size: 40px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.caption {
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	margin-right: 20px;
+}
+
+.description {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	justify-content: center;
+	margin-left: 20px;
+	margin-right: 20px;	
+}
+
+.subtitle {
+	text-align: center;
+	font-family: 'Unbounded', sans-serif;
+	font-size: 30px;
+	margin-top: 22em;
+	background-color: #7C6077;
+	padding: 10px;
+}
+
+.row-photos {
+	margin-left: 7em;
+	padding-bottom: 2em;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+
+
+
